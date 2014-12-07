@@ -21,8 +21,10 @@ a:hover { text-decoration: underline; }
   margin-top: 20px;
   padding: 20px;
   width: 700px;
+  height: 380px;
   margin-left: auto;
   margin-right: auto;
+  background-color: #fff;
 }
 p { font-size: 18px; }
 
@@ -40,4 +42,21 @@ header p {
   color: #000;
   font-size: 15px;
   margin-top: 0;
+}
+
+.profile {
+    float: left;
+    padding-right: 10px;
+}
+
+.main-content {
+    float: left;
+    width: 450px;
+    padding-left: 15px;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.profile-img {
+    border-radius: 6px;
 }
