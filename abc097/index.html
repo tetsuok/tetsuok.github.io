@@ -5,7 +5,7 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<title>blog</title>
+<title>abc097</title>
 
 
 <style type="text/css">
@@ -328,9 +328,38 @@ kbd {
 
 <body>
 
-<p>2018-05-12 <a href="https://tetsuok.github.io/abc097/">ABC 097</a></p>
+<h1 id="toc_0">ABC 097</h1>
 
-<p>2018-05-06 <a href="https://tetsuok.github.io/atcoderabs/">AtCoder に登録したら解くべき精選過去問 10 問を Scheme で解いてみた</a></p>
+<p><a href="https://beta.atcoder.jp/contests/abc097">ABC 097</a> に挑戦しました。プログラミングコンテスト参加は今回で人生4回目。2完でした。</p>
+
+<h2 id="toc_1"><a href="https://beta.atcoder.jp/contests/abc097/tasks/abc097_a">A Colorful Transceivers</a></h2>
+
+<p>100点問題。問題文に書かれている条件を素直に実装するだけです。AC。</p>
+
+<h2 id="toc_2"><a href="https://beta.atcoder.jp/contests/abc097/tasks/abc097_b">B Exponential</a></h2>
+
+<p>200点問題。問題文を勘違いして、n^2 &lt;= X となる最大の数を求めてました。一部WAになってしまい。あせる。思い込みこわいです。とりあえず他の問題にいってもどってきてから、問題文を読み直すと、ようやく理解できました。Xが1000 以下だったので、bとpの組み合わせを全探索して AC。</p>
+
+<h2 id="toc_3"><a href="https://beta.atcoder.jp/contests/abc097/tasks/arc097_a">C K-th Substring</a></h2>
+
+<p>300点問題。与えられた文字列から部分文字列を列挙して、辞書順でK番目の部分文字列を求めよ、という問題。愚直にO(N^3 log N)で部分文字列を列挙するアルゴリズムしか思いつけず、一部TLEで200点。</p>
+
+<p>コンテスト後に、<a href="https://img.atcoder.jp/arc097/editorial.pdf">解説</a> を見たら、
+ハッとなりました。制約をちゃんと読もう。</p>
+
+<p>(こういう手の部分文字列の生成はメモリ使用量を抑えるために <code>std::string_view</code> を使いたいと思ってしまいますが、コンテストだと工夫して計算量を落とすほうが
+ずっと大事ですよね。)</p>
+
+<h2 id="toc_4"><a href="https://beta.atcoder.jp/contests/abc097/tasks/arc097_b">D Equals</a></h2>
+
+<p>400点問題。問題文から何を求めたいのか理解できたところで時間切れでした。</p>
+
+<h2 id="toc_5">反省点</h2>
+
+<ul>
+<li>問題文と制約をよく読もう。</li>
+<li>落ち着こう。</li>
+</ul>
 
 
 
